@@ -83,17 +83,17 @@
             }
 
             // Lógica para movimento vertical
-            if (passarinho.y <= 100 && passarinho.directionY === -1) { // Verifica se o passarinho atingiu o limite superior e está indo para cima
-                passarinho.directionY = 1; // Define a direção para baixo
+            if (passarinho.y <= 100 && passarinho.directionY === -1) { // verifica se o passarinho atingiu o limite superior e está indo para cima
+                passarinho.directionY = 1; // define a direção para baixo
             }
 
-            if (passarinho.y >= 500 && passarinho.directionY === 1) { // Verifica se o passarinho atingiu o limite inferior e está indo para baixo
-                passarinho.directionY = -1; // Define a direção para cima
+            if (passarinho.y >= 500 && passarinho.directionY === 1) { // verifica se o passarinho atingiu o limite inferior e está indo para baixo
+                passarinho.directionY = -1; // define a direção para cima
             }
 
-            passarinho.y += passarinho.directionY * 2; // Altera a posição vertical do passarinho com base na direção e velocidade desejadas
+            passarinho.y += passarinho.directionY * 2; // altera a posição vertical do passarinho com base na direção e velocidade desejadas
         }
-        //Ainda estou tentando implementar a função While dentro do código :(
+        //ainda estou tentando implementar a função While dentro do código :(
     </script>
 
 </body>
