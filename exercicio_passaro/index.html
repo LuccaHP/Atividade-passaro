@@ -81,7 +81,8 @@
                 console.log("O passarinho irá andar para a esqueda, ele está dentro do comando passarinho.ida = false")
                 passarinho.x -= 5;
             }
-
+            
+        for (;;){
             // Lógica para movimento vertical
             if (passarinho.y <= 100 && passarinho.directionY === -1) { // verifica se o passarinho atingiu o limite superior e está indo para cima
                 passarinho.directionY = 1; // define a direção para baixo
@@ -93,6 +94,7 @@
 
             passarinho.y += passarinho.directionY * 2; // altera a posição vertical do passarinho com base na direção e velocidade desejadas
         }
+    }
         //ainda estou tentando implementar a função While dentro do código :(
     </script>
 
